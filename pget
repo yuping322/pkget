@@ -11,6 +11,7 @@ echo "---------------------"
 
 set -e
 
+USER=user
 BUILD_DIR=/home/$USER
 CACHE_DIR=/tmp
 LP_DIR=$(cd $(dirname "$0"); cd ..; pwd)
